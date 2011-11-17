@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D51ABF2B14746F0D00C199A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D51ABF2A14746F0D00C199A8 /* main.cpp */; };
+		D51ABF2D14746F0D00C199A8 /* MplTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D51ABF2C14746F0D00C199A8 /* MplTest.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D51ABF2414746F0D00C199A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D51ABF2D14746F0D00C199A8 /* MplTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D51ABF2614746F0D00C199A8 /* MplTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MplTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51ABF2A14746F0D00C199A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D51ABF2C14746F0D00C199A8 /* MplTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MplTest.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D51ABF2314746F0D00C199A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D51ABF1B14746F0D00C199A8 = {
+			isa = PBXGroup;
+			children = (
+				D51ABF2914746F0D00C199A8 /* MplTest */,
+				D51ABF2714746F0D00C199A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D51ABF2714746F0D00C199A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D51ABF2614746F0D00C199A8 /* MplTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D51ABF2914746F0D00C199A8 /* MplTest */ = {
+			isa = PBXGroup;
+			children = (
+				D51ABF2A14746F0D00C199A8 /* main.cpp */,
+				D51ABF2C14746F0D00C199A8 /* MplTest.1 */,
+			);
+			path = MplTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D51ABF2514746F0D00C199A8 /* MplTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51ABF3014746F0D00C199A8 /* Build configuration list for PBXNativeTarget "MplTest" */;
+			buildPhases = (
+				D51ABF2214746F0D00C199A8 /* Sources */,
+				D51ABF2314746F0D00C199A8 /* Frameworks */,
+				D51ABF2414746F0D00C199A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MplTest;
+			productName = MplTest;
+			productReference = D51ABF2614746F0D00C199A8 /* MplTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D51ABF1D14746F0D00C199A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Individual;
+			};
+			buildConfigurationList = D51ABF2014746F0D00C199A8 /* Build configuration list for PBXProject "MplTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D51ABF1B14746F0D00C199A8;
+			productRefGroup = D51ABF2714746F0D00C199A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D51ABF2514746F0D00C199A8 /* MplTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D51ABF2214746F0D00C199A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51ABF2B14746F0D00C199A8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D51ABF2E14746F0D00C199A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D51ABF2F14746F0D00C199A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D51ABF3114746F0D00C199A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D51ABF3214746F0D00C199A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D51ABF2014746F0D00C199A8 /* Build configuration list for PBXProject "MplTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51ABF2E14746F0D00C199A8 /* Debug */,
+				D51ABF2F14746F0D00C199A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51ABF3014746F0D00C199A8 /* Build configuration list for PBXNativeTarget "MplTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51ABF3114746F0D00C199A8 /* Debug */,
+				D51ABF3214746F0D00C199A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D51ABF1D14746F0D00C199A8 /* Project object */;
+}
